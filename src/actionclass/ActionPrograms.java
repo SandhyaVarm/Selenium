@@ -25,7 +25,7 @@ public class ActionPrograms {
 	  public void doubledclickk() throws InterruptedException {
 		  
 		  driver.get("http://www.seleniumlearn.com/double-click");
-		  Thread.sleep(5000);
+		  Thread.sleep(2000);
 		  
 		  Actions act = new Actions(driver);
 act.moveToElement(driver.findElement(By.xpath("//*[@id=\"node-104\"]/div/div[1]/div/div/button"))).doubleClick().build().perform();
